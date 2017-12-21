@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android='http://schemas.android.com/apk/res/android'
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/ed_hoeheEintragen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/ed_hoeheEintragen"/>
+
+
+        <Button
+            android:id="@+id/btn_zeichnen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/btn_zeichnen"
+            android:layout_marginLeft="200px"
+            android:layout_toRightOf="@id/ed_hoeheEintragen"/>
+
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/tv_zweige"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        />
+
+    <TextView
+        android:id="@+id/tv_baumstamm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+
+        />
+
+
+
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Christbaum</string>
+    <string name="ed_hoeheEintragen">Höhe Eintragen</string>
+    <string name="btn_zeichnen">Zeichnen</string>
+</resources>
